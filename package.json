@@ -14,8 +14,8 @@
   "license": "MIT",
   "engineStrict": true,
   "engines": {
-    "node": "^12.13.1",
-    "npm": "^6.12.1"
+    "node": ">=12.13.1",
+    "npm": ">=6.12.1"
   },
   "dependencies": {
     "bootstrap": "~4.3",
