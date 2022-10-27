@@ -23,7 +23,7 @@
 <r:comment><!-- Add an openin markup tag. This is used by the demo site to auto-generate code that the user can copy into their own theme. --></r:comment>
 <r:comment><!-- This component’s outer container also contains utilities for evaluating whether the component should get a section or a main tag, what classes to apply to the outer container, and a background styler, defined by uploading an image and labeling it with the page slug and component name. --></r:comment>
 <!-- Markup --><<r:partial name="utilities/wvu-is-main-checker" theme="University Relations: WVU Design System" /> <r:if_true value="{$componentIsMain}">id="wvu-main-content"</r:if_true> class="<r:if_true value="{$componentIsEditModeOnly}">d-none </r:if_true><r:partial name="utilities/wvu-component-classes-checker" theme="University Relations: WVU Design System" />" <r:partial name="utilities/wvu-bg-styler" theme="University Relations: WVU Design System" />>
-  <div class="container">
+  <div class="container wvu-z-index-content">
     <div class="row">
       <div class="col-md-4">
         <r:comment><!-- This is where you can add utility classes that will apply to the hero’s heading. --></r:comment>
